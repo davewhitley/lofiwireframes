@@ -158,11 +158,13 @@ body {
 .header-image {
   grid-column: span 3;
   height: max(32rem, 40vw);
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
 }
 
 .header-image>img {
   height: 100%;
-  float: right;
 }
 
 .header-intro {
